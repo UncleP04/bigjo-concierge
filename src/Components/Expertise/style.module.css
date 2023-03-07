@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --orange: #F6B124;
+    --green: #1F938A;
+    --bgGreen: #042826;
+    --lightGreen: #19D6C7;
+    --orgRed: #FE6150;
+    --gbGreen: #1B5B63;
+    --linear: #FCB34C;
+    --whiteBg: #ebeae4;
+    --white: #fff;
+    --black: #000;
+    --fontfam: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fontfam);
+    list-style: none;
+    text-decoration: none;
+}
+
+.expertiseBox{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expertiseBox .leftExpertise{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.expertiseBox .leftExpertise h1{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.expertiseBox .rightExpertise{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;   
+    bottom: 0;
+    padding: 20px;
+}
+
+.expertiseBox .rightExpertise span{
+    margin-top: 180px;
+}
+
+.expertiseBox .rightExpertise span p{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #6b6b6b;
+}
+
+@media only screen and (max-width: 425px) {
+    .expertiseBox{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .expertiseBox .leftExpertise{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .expertiseBox .leftExpertise img{
+        transform: rotate(90deg);
+        display: none;
+    }
+
+    .expertiseBox .rightExpertise{
+        margin: 0;
+        padding: 0;
+    }
+
+    .expertiseBox .rightExpertise span{
+        margin: 20px 0;
+    }
+
+    .expertiseBox .rightExpertise span p{
+        margin: 0;
+        padding: 0;
+    }
+}

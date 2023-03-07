@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --orange: #F6B124;
+    --green: #1F938A;
+    --bgGreen: #042826;
+    --lightGreen: #19D6C7;
+    --orgRed: #FE6150;
+    --gbGreen: #1B5B63;
+    --linear: #FCB34C;
+    --whiteBg: #ebeae4;
+    --white: #fff;
+    --black: #000;
+    --fontfam: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fontfam);
+    list-style: none;
+    text-decoration: none;
+}
+
+.talentBox{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.talentBox h1{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.talentBox h1 img{
+    /* width: 100%; */
+}
+
+
+@media only screen and (max-width: 375px) {
+   .talentBox h1
+   {
+    font-size: 3em;
+   }
+
+   .innerHead{
+    flex-direction: column;
+   }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+   
+    .talentBox h1
+    {
+        font-size: 3.5em;
+       }
+
+       .innerHead{
+        flex-direction: column;
+       }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .talentBox h1{
+        font-size: 4em;
+       }
+
+       .innerHead{
+        flex-direction: column;
+       }
+}
+
+
+@media only screen and (max-width: 836px) {
+    .talentBox h1 img{
+        width: 100%;
+    }
+}
