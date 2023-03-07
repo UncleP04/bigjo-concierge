@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --orange: #F6B124;
+    --green: #1F938A;
+    --bgGreen: #042826;
+    --lightGreen: #19D6C7;
+    --orgRed: #FE6150;
+    --gbGreen: #1B5B63;
+    --linear: #FCB34C;
+    --whiteBg: #ebeae4;
+    --white: #fff;
+    --black: #000;
+    --baseColor: #FCFAEC;
+    --fontfam: 'Open Sans', sans-serif;
+    --gradient: linear-gradient(#1F938A, #FE6150);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.introBox {
+    background: var(--baseColor);
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftIntro {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.leftIntro .arrow {
+    margin-right: 30px;
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.leftIntro {}
+
+.leftIntro .context h1 {
+    font-family: var(--fontfam);
+    font-size: 4rem;
+}
+
+.leftIntro .context .peopleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.leftIntro .context .peopleBox img {
+    width: 100px;
+}
+
+.rightIntro {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightIntro img {
+    width: 70%;
+}
+
+.searchBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(#FCFAEC, #FCFAEC) padding-box,
+        linear-gradient(to right, #1F938A, #FE6150) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+}
+
+.searchBox input {
+    border: none;
+    outline: none;
+    color: var(--black);
+    background: none;
+    width: 200px;
+}
+
+.searchBox span:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchBox span:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.searchBox span a {
+    color: white;
+    padding: 10px 20px;
+    background: var(--bgGreen);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .introBox {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .introBox .context h1 {
+        font-size: 2.5rem;
+    }
+
+    .leftIntro .context .peopleBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .rightIntro img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .searchBox {
+        width: 100%;
+    }
+
+    .searchBox input {
+        width: 100%;
+    }
+
+    .searchBox span:nth-child(2) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .searchBox span a {
+        color: white;
+        padding: 10px;
+        background: var(--bgGreen);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .introBox .context h1 {
+        font-size: 3rem;
+    }
+
+    .leftIntro .context .peopleBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --orange: #F6B124;
+    --green: #1F938A;
+    --bgGreen: #042826;
+    --lightGreen: #19D6C7;
+    --orgRed: #FE6150;
+    --gbGreen: #1B5B63;
+    --linear: #FCB34C;
+    --whiteBg: #ebeae4;
+    --white: #fff;
+    --black: #000;
+    --fontfam: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--transColor);
+    color: var(--textColor);
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 2px 2px rgb(233, 232, 232);
+}
+
+header h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Shantell Sans', cursive;
+}
+
+
+
+.navIcon {
+    visibility: hidden !important;
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: #e7e5e5;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+nav #links:hover .navIcon {
+    visibility: visible !important;
+}
+
+nav #links {
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    display: flex;
+    position: relative;
+}
+
+
+nav #links:hover {
+    color: var(--secondaryColor);
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.bookSection {
+    color: var(--white);
+    background: var(--orange);
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.bigScreen {
+    display: none;
+}
+
+.smallScreen {
+    display: block;
+}
+
+.linkUnderline {
+    display: inline-block;
+    position: relative;
+}
+
+.linkUnderline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--gbGreen);
+    padding-bottom: -10px;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.linkUnderline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.dropBox {
+    background: #fff;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+.dropItem {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    color: #305ec1;
+    padding: 5px;
+}
+
+.active {
+    color: var(--gbGreen);
+}
+
+.dropItem:hover {
+    color: #8e99ce;
+    background: #eeeeee;
+}
+
+@media only screen and (max-width: 768px) {
+    header h3 img {
+        width: 100px;
+        margin-top: 5px;
+    }
+
+    .bigScreen{
+        display: block;
+    }
+
+    .smallScreen{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--bgGreen);
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1000;
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav #links {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: var(--white);
+    }
+
+    nav #links:hover {
+        color: var(--whiteBg);
+    }
+
+    .bookSection {
+        color: #ffffff;
+        border: 1px solid #7c5808;
+    }
+
+    .navIcon {
+        background: var(--gbGreen);
+    }
+}
