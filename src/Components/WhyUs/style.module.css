@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+:root {
+  --orange: #f6b124;
+  --green: #1f938a;
+  --bgGreen: #042826;
+  --lightGreen: #19d6c7;
+  --orgRed: #fe6150;
+  --gbGreen: #1b5b63;
+  --linear: #fcb34c;
+  --whiteBg: #ebeae4;
+  --white: #fff;
+  --black: #000;
+  --baseColor: #fcfaec;
+  --fontfam: "Open Sans", sans-serif;
+  --fonth2: 'Work Sans', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fontfam);
+  list-style: none;
+  text-decoration: none;
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: var(--fonth2) !important;
+}
+
+.why {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  background: var(--white);
+}
+
+.why .whyUsBox {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background: var(--baseColor);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.why .whyUsBox .leftWhyBox {
+}
+
+.why .whyUsBox .leftWhyBox h1 {
+  text-transform: uppercase;
+  color: #5e5c54;
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+
+.why .whyUsBox .leftWhyBox p {
+  font-size: 13px;
+  color: var(--lightGreen);
+  line-height: 25px;
+}
+.why .whyUsBox .rightWhyBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 30px;
+  width: 300px;
+}
+
+.why .whyUsBox .rightWhyBox span {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(1) {
+  background: var(--gbGreen);
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(1) h2 {
+  color: var(--white);
+  font-weight: 300;
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(2) {
+  background: var(--orgRed);
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(2) h2 {
+  color: var(--white);
+  font-weight: 300;
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(2) p {
+  font-weight: 300;
+  font-size: 13px;
+  color: var(--white);
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(3) {
+  background: var(--orange);
+}
+
+.why .whyUsBox .rightWhyBox span:nth-child(3) h2 {
+  color: var(--white);
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .why{
+        height: 100%;
+        padding: 30px 20px;
+    }
+
+    .why .whyUsBox{
+        grid-template-columns: 1fr;
+        justify-content: start;
+        align-items: start;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .why .whyUsBox .leftWhyBox h1{
+        font-size: 2rem;
+    }
+
+    .why .whyUsBox .rightWhyBox{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .why{
+        height: 100%;
+        padding: 50px 100px;
+    }
+}

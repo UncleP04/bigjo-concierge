@@ -1,27 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
 :root {
-    --orange: #F6B124;
-    --green: #1F938A;
-    --bgGreen: #042826;
-    --lightGreen: #19D6C7;
-    --orgRed: #FE6150;
-    --gbGreen: #1B5B63;
-    --linear: #FCB34C;
-    --whiteBg: #ebeae4;
-    --white: #fff;
-    --black: #000;
-    --fontfam: 'Open Sans', sans-serif;
+  --orange: #f6b124;
+  --green: #1f938a;
+  --bgGreen: #042826;
+  --lightGreen: #19d6c7;
+  --orgRed: #fe6150;
+  --gbGreen: #1b5b63;
+  --linear: #fcb34c;
+  --whiteBg: #ebeae4;
+  --white: #fff;
+  --black: #000;
+  --baseColor: #fcfaec;
+  --fontfam: "Open Sans", sans-serif;
+  --fonth2: 'Work Sans', sans-serif;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: var(--fontfam);
-    list-style: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fontfam);
+  list-style: none;
+  text-decoration: none;
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: var(--fonth2) !important;
 }
 
 .expertiseBox{
