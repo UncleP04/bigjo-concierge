@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import "./style.css";
@@ -7,8 +7,6 @@ import HomeIcon from '@mui/icons-material/Home';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import EventRepeatIcon from '@mui/icons-material/EventRepeat';
 import BookIcon from '@mui/icons-material/Book';
-import GroupsIcon from '@mui/icons-material/Groups';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 const Navbar = () => {
     const navRef = useRef();
@@ -32,9 +30,9 @@ const Navbar = () => {
                         onClick={showNavbar}>
                         <CloseIcon />
                     </button>
-                    <a className='bookSection bigScreen'>Book free section</a>
+                    <a href="/links" className='bookSection bigScreen'>Book free section</a>
                 </nav>
-                    <a className='bookSection smallScreen'>Book free section</a>
+                    <a href="/links" className='bookSection smallScreen'>Book free section</a>
                 <button className="nav-btn" onClick={showNavbar}>
                     <MenuIcon />
                 </button>

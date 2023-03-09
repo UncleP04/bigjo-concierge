@@ -4,7 +4,6 @@ import MixColors from "../../Images/mixcolor.png";
 import Arrow from "../../Images/arrow.png";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import { borderRadius } from "@mui/system";
 
 const AboutComponent = () => {
   const LeftArrow = {
@@ -113,7 +112,7 @@ const AboutComponent = () => {
               globally.
             </p>
             <div className={style.bookButton} data-aos="fade-up">
-              <a href="">Book a session</a>
+              <a href="/book">Book a session</a>
             </div>
           </span>
         </span>

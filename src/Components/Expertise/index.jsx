@@ -13,7 +13,7 @@ const Expertise = () => {
                         commitment, <br />
                         and value.
                     </h1>
-                    <img src={ArrowOne} alt="ArrowOne" />
+                    <img src={ArrowOne} alt="ArrowOne.png" />
                 </div>
                 <div className={style.rightExpertise}>
                     <span>

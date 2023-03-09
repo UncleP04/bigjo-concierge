@@ -22,9 +22,9 @@ const Footer = () => {
             </p>
           </span>
           <span className={style.footerLinks} data-aos="zoom-in">
-            <a href=""><img src={LinkedIn} alt="LinkedIn.png" /></a>
-            <a href=""><img src={Twitter} alt="Twitter" /></a>
-            <a href=""><img src={Telegram} alt="telegram" /></a>
+            <a href="https://linkedin.com"><img src={LinkedIn} alt="LinkedIn.png" /></a>
+            <a href="https://twitter.com"><img src={Twitter} alt="Twitter.png" /></a>
+            <a href="https://telegram.com"><img src={Telegram} alt="telegram.png" /></a>
           </span>
         </section>
         <section className={style.footerCopywrite}>

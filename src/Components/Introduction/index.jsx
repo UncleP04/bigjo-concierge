@@ -11,7 +11,7 @@ const Introduction = () => {
             <div className={style.introBox}>
                 <div className={style.leftIntro}>
                     <span className={style.arrow} data-aos="fade-up">
-                        <img src={Arrow} alt="" />
+                        <img src={Arrow} alt="arrow.png" />
                     </span>
                     <span className={style.context}>
                         <h1 data-aos="fade-up">Get the best African Talent</h1>
@@ -25,7 +25,7 @@ const Introduction = () => {
                                 <SearchIcon />
                                 <input type="text" placeholder="Try java developer, Design etc." />
                             </span>
-                            <span><a>Find a Talent</a></span>
+                            <span><a href="/talent">Find a Talent</a></span>
                         </label>
                     </span>
                 </div>

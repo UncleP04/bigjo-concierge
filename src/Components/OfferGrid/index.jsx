@@ -1,8 +1,7 @@
 import React from "react"
 import style from './style.module.css'
-import Line from '../../Images/line.png'
+// import Line from '../../Images/line.png'
 import Circle from '../../Images/circle.png'
-import { Label } from "reactstrap"
 
 const OfferGrid = () => {
 
