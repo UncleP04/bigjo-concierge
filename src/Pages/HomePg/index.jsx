@@ -7,6 +7,8 @@ import OfferGrid from "../../Components/OfferGrid";
 import WhyUs from "../../Components/WhyUs";
 import style from './style.module.css'
 import Hiring from "../../Components/Hiring";
+import AboutComponent from "../../Components/AboutComponent";
+import Footer from "../../Components/Footer";
 
 const HomePage = () => {
 
@@ -19,6 +21,8 @@ const HomePage = () => {
             <OfferGrid />
             <WhyUs />
             <Hiring />
+            <AboutComponent />
+            <Footer />
         </div>
     )
 }

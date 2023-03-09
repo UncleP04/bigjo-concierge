@@ -15,22 +15,22 @@ const partners = () => {
         <div>
             <div className={style.partnersBox}>
                 <label>
-                    <h1>
+                    <h1 data-aos="fade-up">
                         Clients that Trust Us
                     </h1>
-                    <p>
+                    <p data-aos="fade-up">
                         We collaborate with a number of top tier companies on imagining the future of work, have a look.
                     </p>
                 </label>
                 <span>
-                    <img src={Cl1} alt="partners.png" />
-                    <img src={Cl2} alt="partners.png" />
-                    <img src={Cl3} alt="partners.png" />
-                    <img src={Cl4} alt="partners.png" />
-                    <img src={Cl5} alt="partners.png" />
-                    <img src={Cl6} alt="partners.png" />
-                    <img src={Cl7} alt="partners.png" />
-                    <img src={Cl8} alt="partners.png" />
+                    <img src={Cl1} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl2} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl3} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl4} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl5} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl6} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl7} alt="partners.png" data-aos="fade-up" />
+                    <img src={Cl8} alt="partners.png" data-aos="fade-up" />
                 </span>
             </div>
         </div>

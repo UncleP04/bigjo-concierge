@@ -6,7 +6,7 @@ const Talents = () => {
   return (
     <div>
       <div className={style.talentBox}>
-        <h1>
+        <h1 data-aos="fade-up">
           WHY HIRE AFRICAN <br />
           TALENTS <img src={Regtangle} alt="" /> <br />
           TO WORK REMOTELY

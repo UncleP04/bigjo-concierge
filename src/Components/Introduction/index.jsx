@@ -10,18 +10,18 @@ const Introduction = () => {
         <div>
             <div className={style.introBox}>
                 <div className={style.leftIntro}>
-                    <span className={style.arrow}>
+                    <span className={style.arrow} data-aos="fade-up">
                         <img src={Arrow} alt="" />
                     </span>
                     <span className={style.context}>
-                        <h1>Get the best African Talent</h1>
-                        <span className={style.peopleBox}>
+                        <h1 data-aos="fade-up">Get the best African Talent</h1>
+                        <span className={style.peopleBox} data-aos="fade-up">
                             <img src={People} alt="people.png" />
-                            <p>Hire exclusive Top African Software Developers,
+                            <p data-aos="fade-up">Hire exclusive Top African Software Developers,
                                 designers, Product managers, Project managers</p>
                         </span>
-                        <label className={style.searchBox}>
-                            <span>
+                        <label className={style.searchBox} data-aos="fade-up">
+                            <span >
                                 <SearchIcon />
                                 <input type="text" placeholder="Try java developer, Design etc." />
                             </span>
@@ -29,7 +29,7 @@ const Introduction = () => {
                         </label>
                     </span>
                 </div>
-                <div className={style.rightIntro}>
+                <div className={style.rightIntro} data-aos="fade-up">
                     <img src={African} alt="African.png" />
                 </div>
             </div>
