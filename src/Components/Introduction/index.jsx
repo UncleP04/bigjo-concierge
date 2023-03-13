@@ -23,9 +23,9 @@ const Introduction = () => {
                         <label className={style.searchBox} data-aos="fade-up">
                             <span >
                                 <SearchIcon />
-                                <input type="text" placeholder="Try java developer, Design etc." />
+                                <input type="text" placeholder="Try java developer, Design etc." disabled />
                             </span>
-                            <span><a href="/talent">Find a Talent</a></span>
+                            <span><a href="https://calendly.com/bigjoconcierge">Find a Talent</a></span>
                         </label>
                     </span>
                 </div>

@@ -1,16 +1,19 @@
 import React from "react";
 import style from "./style.module.css";
-import Telegram from '../../Images/tele.png'
-import LinkedIn from '../../Images/link.png'
-import Twitter from '../../Images/twit.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Footer = () => {
+
+  const LinkIcon = {
+    color: 'white'
+  }
   return (
     <div>
-      <div className={style.footer}>
+      <div className={style.footer} id="ContactUs">
         <section className={style.footerGrid}>
           <span>
-            <h3 data-aos="zoom-in">BigjoConcierge</h3>
+            <h3 data-aos="zoom-in">BigJoConcierge</h3>
           </span>
           <span className={style.footerText}>
             <p data-aos="zoom-in">
@@ -22,9 +25,8 @@ const Footer = () => {
             </p>
           </span>
           <span className={style.footerLinks} data-aos="zoom-in">
-            <a href="https://linkedin.com"><img src={LinkedIn} alt="LinkedIn.png" /></a>
-            <a href="https://twitter.com"><img src={Twitter} alt="Twitter.png" /></a>
-            <a href="https://telegram.com"><img src={Telegram} alt="telegram.png" /></a>
+            <a href="https://www.linkedin.com/company/bigjo-concierge-service/"><LinkedInIcon style={LinkIcon} /></a>
+            <a href="https://twitter.com/BigJoConcierge"><TwitterIcon style={LinkIcon} /></a>
           </span>
         </section>
         <section className={style.footerCopywrite}>

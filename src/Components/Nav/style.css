@@ -48,7 +48,9 @@ header h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-
+.linkUnderline:hover{
+    cursor: pointer;
+}
 
 .navIcon {
     visibility: hidden !important;

@@ -22,7 +22,7 @@ const AboutComponent = () => {
 
   return (
     <div>
-      <section className={style.aboutBox}>
+      <section className={style.aboutBox} id="AboutUs">
         <div className={style.imageBox}>
           <img src={MixColors} alt="MixColors.png" data-aos="fade-up"/>
         </div>
@@ -112,7 +112,7 @@ const AboutComponent = () => {
               globally.
             </p>
             <div className={style.bookButton} data-aos="fade-up">
-              <a href="/book">Book a session</a>
+              <a href="https://calendly.com/josephnssien/career-consultation?month=2023-03">Book a session</a>
             </div>
           </span>
         </span>

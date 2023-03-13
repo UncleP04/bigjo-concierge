@@ -5,7 +5,7 @@ const WhyUs = () => {
 
     return (
         <div>
-            <div className={style.why}>
+            <div className={style.why} id="whyUs">
                 <div className={style.whyUsBox}>
                     <div className={style.leftWhyBox}>
                         <h1 data-aos="fade-up">WHY ORGANIZATIONS CHOOSE BIGJO CONCEIRGE</h1>

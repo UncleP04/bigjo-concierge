@@ -1,6 +1,5 @@
 import React from "react"
 import style from './style.module.css'
-// import Line from '../../Images/line.png'
 import Circle from '../../Images/circle.png'
 
 const OfferGrid = () => {
@@ -31,7 +30,7 @@ const OfferGrid = () => {
                 <label>
                     <img className={style.offerImg} src={Circle} alt="circle.png" data-aos="fade-up"/>
                     <span>
-                        <h2 data-aos="fade-up">CIMPROVE TIME MANAGEMENT</h2>
+                        <h2 data-aos="fade-up">IMPROVE TIME MANAGEMENT</h2>
                         <p data-aos="fade-up">
                         Remote working eliminates the need for commuting, allowing professionals to better manage their time and increase their work-life balance.
                         </p>
