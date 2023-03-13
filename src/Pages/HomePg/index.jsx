@@ -5,7 +5,6 @@ import Partners from "../../Components/Partners";
 import Talents from "../../Components/Talents";
 import OfferGrid from "../../Components/OfferGrid";
 import WhyUs from "../../Components/WhyUs";
-// import style from './style.module.css'
 import Hiring from "../../Components/Hiring";
 import AboutComponent from "../../Components/AboutComponent";
 import Footer from "../../Components/Footer";
