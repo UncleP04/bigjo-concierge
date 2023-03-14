@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.module.css";
+import style from "./aboutStyle.module.css";
 import MixColors from "../../Images/mixcolor.png";
 import Arrow from "../../Images/arrow.png";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";

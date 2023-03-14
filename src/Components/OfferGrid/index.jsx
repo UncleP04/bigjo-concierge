@@ -1,5 +1,5 @@
 import React from "react"
-import style from './style.module.css'
+import style from './offerStyle.module.css'
 import Circle from '../../Images/circle.png'
 
 const OfferGrid = () => {

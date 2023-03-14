@@ -1,5 +1,5 @@
 import React from "react"
-import style from './style.module.css'
+import style from './expertStyle.module.css'
 import ArrowOne from '../../Images/Arrow 1.png'
 
 const Expertise = () => {

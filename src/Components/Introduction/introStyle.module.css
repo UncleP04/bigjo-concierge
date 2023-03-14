@@ -46,8 +46,8 @@ h2{
 
 .leftIntro {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .leftIntro .arrow {
@@ -61,7 +61,6 @@ h2{
     align-items: flex-start;
 }
 
-.leftIntro {}
 
 .leftIntro .context h1 {
     font-family: var(--fontfam);

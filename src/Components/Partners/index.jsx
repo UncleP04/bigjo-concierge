@@ -1,5 +1,5 @@
 import React from "react"
-import style from './style.module.css'
+import style from './partnerStyle.module.css'
 import Cl1 from '../../Images/cl1.png'
 import Cl2 from '../../Images/cl2.png'
 import Cl3 from '../../Images/cl3.png'
