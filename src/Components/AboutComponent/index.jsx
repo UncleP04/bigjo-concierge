@@ -91,8 +91,8 @@ const AboutComponent = () => {
             knowledgeable, professional, and responsible.
           </p>
           <span data-aos="fade-up">
-            <h3>Andrew</h3>
-            <p>CEO Exo Venture</p>
+            <h3>Martin</h3>
+            <p>CEO Cryptomeda</p>
           </span>
           <div className={style.arrowBox}>
             <img src={Arrow} alt="Arrow.png" data-aos="fade-up"/>

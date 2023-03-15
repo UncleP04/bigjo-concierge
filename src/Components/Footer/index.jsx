@@ -2,6 +2,8 @@ import React from "react";
 import style from "./footerStyle.module.css";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import EmailIcon from '@mui/icons-material/Email';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
 
@@ -27,6 +29,8 @@ const Footer = () => {
           <span className={style.footerLinks} data-aos="zoom-in">
             <a href="https://www.linkedin.com/company/bigjo-concierge-service/"><LinkedInIcon style={LinkIcon} /></a>
             <a href="https://twitter.com/BigJoConcierge"><TwitterIcon style={LinkIcon} /></a>
+            <a href=""><EmailIcon style={LinkIcon} /></a>
+            <a href="https://wa.me/message/6EKOUHPFZHV3N1"><WhatsAppIcon style={LinkIcon} /></a>
           </span>
         </section>
         <section className={style.footerCopywrite}>
