@@ -28,23 +28,23 @@ const AboutComponent = () => {
         </div>
         <div className={style.aboutContent}>
           <h2 data-aos="fade-up">
-            About BigJo <br /> Concierge
+            About Wecruitme
           </h2>
           <p data-aos="fade-up">
-            BigJo Concierge is a premier talent acquisition and management
+            Wecruitme is a premier talent acquisition and management
             company that connects web2 & web3 brands with top-tier African
             talent and provides them with complete Human Resource Management
             services.
           </p>
           <p data-aos="fade-up">
-            BigJo Concierge offers a unique, personalized approach to talent
+            Wecruitme offers a unique, personalized approach to talent
             acquisition and management, ensuring that clients find the perfect
             candidates to meet their specific needs and drive their businesses
             forward.
           </p>
           <p data-aos="fade-up">
             With an extensive network of connections and a deep understanding of
-            the African tech landscape, BigJo Concierge is dedicated to helping
+            the African tech landscape, Wecruitme is dedicated to helping
             companies of all sizes and in all sectors find and hire the best and
             brightest talent from across the continent, and handle all the HR
             management, from recruitment to employee engagement, performance
@@ -52,7 +52,7 @@ const AboutComponent = () => {
             <p data-aos="fade-up">
               Whether you're looking to build a world-class engineering team,
               expand into new markets, or find top-notch talent to take your
-              business to the next level, BigJo Concierge is here to help.
+              business to the next level, Wecruitme is here to help.
             </p>
           </p>
         </div>
@@ -86,7 +86,7 @@ const AboutComponent = () => {
             <ArrowForwardIcon style={RightArrow} />
           </div>
           <p data-aos="fade-up">
-            BigJo has been working in Cryptomeda as a community admin for almost
+          Wecruitme has been working in Cryptomeda as a community admin for almost
             a year. I'm satisfied with their work. They are technically
             knowledgeable, professional, and responsible.
           </p>

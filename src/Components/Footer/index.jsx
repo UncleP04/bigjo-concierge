@@ -14,11 +14,11 @@ const Footer = () => {
       <div className={style.footer} id="ContactUs">
         <section className={style.footerGrid}>
           <span>
-            <h3 data-aos="zoom-in">BigJoConcierge</h3>
+            <h3 data-aos="zoom-in">Wecruitme</h3>
           </span>
           <span className={style.footerText}>
             <p data-aos="zoom-in">
-              BigJo Concierge offers a unique, personalized approach to talent
+              Wecruitme offers a unique, personalized approach to talent
               acquisition and management, ensuring that clients find the perfect
               candidates to meet their specific needs and drive their businesses
               forward. With an extensive network of connections and a deep
@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
           </span>
           <span className={style.footerLinks} data-aos="zoom-in">
-            <a href="https://www.linkedin.com/company/bigjo-concierge-service/" target="_blank">
+            <a href="https://www.linkedin.com/company/WECRUITME-service/" target="_blank">
               <LinkedInIcon style={LinkIcon} />
             </a>
             <a href="https://twitter.com/BigJoConcierge" target="_blank">
@@ -45,7 +45,7 @@ const Footer = () => {
           </span>
         </section>
         <section className={style.footerCopywrite}>
-          <p>@copyright 2022, ALL RIGHT RESERVED BY BIGJO-CONCIERGE.</p>
+          <p>@copyright 2022, ALL RIGHT RESERVED BY Wecruitme.</p>
         </section>
       </div>
     </div>

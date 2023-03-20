@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div>
             <header>
-                <h3>BigJoConcierge</h3>
+                <h3>Wecruitme</h3>
                 <nav ref={navRef}>
                     <Link to="/" exact onClick={showNavbar} className="linkUnderline active" id='links'><HomeIcon className='navIcon' /></Link>
                     <Link to="whyUs" onClick={showNavbar} className="linkUnderline active" id='links'><VolunteerActivismIcon className='navIcon' />Why</Link>
