@@ -13,15 +13,15 @@ const HomePage = () => {
 
     return (
         <div>
-            <Introduction />
-            <Expertise />
-            <Partners />
-            <Talents />
-            <OfferGrid />
-            <WhyUs />
-            <Hiring />
-            <AboutComponent />
-            <Footer />
+               <Introduction />
+               <Expertise />
+               <Partners />
+               <Talents />
+               <OfferGrid />
+               <WhyUs />
+               <Hiring />
+               <AboutComponent />
+               <Footer />
         </div>
     )
 }

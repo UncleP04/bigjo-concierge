@@ -17,7 +17,7 @@ const Expertise = () => {
                 </div>
                 <div className={style.rightExpertise}>
                     <span>
-                        <p data-aos="fade-up">It's our mission to consistently <br /> provide these to our clients</p>
+                        <p data-aos="fade-up">It's our mission to consistently provide these to our clients</p>
                         <p data-aos="fade-up">
                             We help companies <strong>build top-tier teams by hiring, developing and managing</strong> tech talent remotely
                         </p>
