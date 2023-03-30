@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
 
-:root {
-    --orange: #F6B124;
-    --green: #1F938A;
-    --bgGreen: #042826;
-    --lightGreen: #19D6C7;
-    --orgRed: #FE6150;
-    --gbGreen: #1B5B63;
-    --linear: #FCB34C;
-    --whiteBg: #ebeae4;
-    --white: #fff;
-    --black: #000;
-    --fontfam: 'Open Sans', sans-serif;
-}
+/*:root {*/
+/*    --orange: #F6B124;*/
+/*    --green: #1F938A;*/
+/*    --bgGreen: #042826;*/
+/*    --lightGreen: #19D6C7;*/
+/*    --orgRed: #FE6150;*/
+/*    --gbGreen: #1B5B63;*/
+/*    --linear: #FCB34C;*/
+/*    --whiteBg: #ebeae4;*/
+/*    --white: #fff;*/
+/*    --black: #000;*/
+/*    --fontfam: 'Open Sans', sans-serif;*/
+/*}*/
 
 * {
     padding: 0;
@@ -31,14 +31,13 @@ header {
     justify-content: space-around;
     height: 80px;
     padding: 0 2rem;
-    background-color: var(--transColor);
-    color: var(--textColor);
+    color: var(--colorH);
     position: sticky;
     top: 0;
     scroll-behavior: smooth;
     width: 100%;
     z-index: 1000;
-    box-shadow: 2px 2px rgb(233, 232, 232);
+    box-shadow: 2px 2px var(--border);
 }
 
 header h3 {
@@ -68,7 +67,7 @@ nav #links:hover .navIcon {
 
 nav #links {
     margin: 0 1rem;
-    color: var(--textColor);
+    color: var(--coloH);
     text-decoration: none;
     display: flex;
     position: relative;
@@ -76,7 +75,7 @@ nav #links {
 
 
 nav #links:hover {
-    color: var(--secondaryColor);
+    color: var(--bgGreen);
 }
 
 header .nav-btn {
@@ -85,7 +84,7 @@ header .nav-btn {
     background: transparent;
     border: none;
     outline: none;
-    color: var(--textColor);
+    color: var(--orange);
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
@@ -102,7 +101,7 @@ nav {
     background: var(--orange);
     font-size: 15px;
     padding: 10px 20px;
-    border: 1px solid var(--secondaryColor);
+    border: 1px solid var(--orange);
     border-radius: 50px;
     cursor: pointer;
 }
@@ -226,7 +225,7 @@ nav {
     }
 
     .bookSection {
-        color: #ffffff;
+        color: var(--white);
         border: 1px solid #7c5808;
     }
 

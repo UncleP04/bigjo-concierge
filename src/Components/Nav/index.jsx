@@ -7,6 +7,7 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import EventRepeatIcon from '@mui/icons-material/EventRepeat';
 import BookIcon from '@mui/icons-material/Book';
 import {Link} from 'react-scroll';
+import DarkMode from "../DarkMode";
 
 const Navbar = () => {
     const navRef = useRef();
@@ -36,6 +37,7 @@ const Navbar = () => {
                 <button className="nav-btn" onClick={showNavbar}>
                     <MenuIcon />
                 </button>
+                <DarkMode />
             </header>
         </div>
     );

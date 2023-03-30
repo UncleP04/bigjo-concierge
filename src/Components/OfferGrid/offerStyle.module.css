@@ -1,22 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/*@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");*/
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');*/
 
-:root {
-  --orange: #f6b124;
-  --green: #1f938a;
-  --bgGreen: #042826;
-  --lightGreen: #19d6c7;
-  --orgRed: #fe6150;
-  --gbGreen: #1b5b63;
-  --linear: #fcb34c;
-  --whiteBg: #ebeae4;
-  --white: #fff;
-  --black: #000;
-  --baseColor: #fcfaec;
-  --fontfam: "Open Sans", sans-serif;
-  --fonth2: 'Work Sans', sans-serif;
-}
+/*:root {*/
+/*  --orange: #f6b124;*/
+/*  --green: #1f938a;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19d6c7;*/
+/*  --orgRed: #fe6150;*/
+/*  --gbGreen: #1b5b63;*/
+/*  --linear: #fcb34c;*/
+/*  --whiteBg: #ebeae4;*/
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --baseColor: #fcfaec;*/
+/*  --fontfam: "Open Sans", sans-serif;*/
+/*  --fonth2: 'Work Sans', sans-serif;*/
+/*}*/
 
 * {
   padding: 0;
@@ -35,7 +35,6 @@ h2{
 .offers {
   width: 100%;
   height: 100vh;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,18 +56,17 @@ h2{
 }
 
 .offerGrid .lineImg {
-  /* width: 100%; */
   position: absolute;
 }
 
 .offerGrid label span h2 {
-  color: #1b5b63;
+  color: var(--bgGreen);
   padding-bottom: 10px;
   font-weight: 400;
 }
 
 .offerGrid label span p {
-  color: #d1d0d0;
+  color: var(--0ffer);
   line-height: 25px;
   font-size: 15px;
 }
@@ -86,7 +84,7 @@ h2{
 }
 
 .offerGrid label:nth-child(2) span h2 {
-  color: var(--white);
+  color: var(--paragraphLight);
 }
 
 .offerGrid label:nth-child(3) span h2 {

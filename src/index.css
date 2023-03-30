@@ -1,3 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+:root {
+  --orange: #f6b124;
+  --green: #1f938a;
+  --bgGreen: #042826;
+  --lightGreen: #19d6c7;
+  --orgRed: #fe6150;
+  --gbGreen: #1b5b63;
+  --linear: #fcb34c;
+  --whiteBg: #ebeae4;
+  --0ffer: #ebeae4;
+  --white: #fff;
+  --black: #000;
+  --header: #5e5c54;
+  --paragraphLight: #d2d0d0;
+  --baseColor: #fcfaec;
+  --introBg: #fcfaec;
+  --paragraph: #6b6b6b;
+  --fontfam: "Open Sans", sans-serif;
+  --fonth2: 'Work Sans', sans-serif;
+  --colorH: #000;
+  --baseWhy: #fcfaec;
+  --border: #e7e6e6;
+}
+
+[data-theme="dark"]{
+  --orange: #f6b124;
+  --green: #1f938a;
+  --bgGreen: #042826;
+  --lightGreen: #19d6c7;
+  --orgRed: #fe6150;
+  --gbGreen: #1b5b63;
+  --linear: #fcb34c;
+  --whiteBg: #222;
+  --white: #000;
+  --black: #000;
+  --colorH: #fff;
+  --header: #fff;
+  --paragraphLight: #eae9e9;
+  --baseColor: #fcfaec;
+  --baseWhy: #313030;
+  --paragraph: #8f8e8e;
+  --fontfam: "Open Sans", sans-serif;
+  --fonth2: 'Work Sans', sans-serif;
+  --bodyBg: #0e0f11;
+  --introBg: #0e0f11;
+  --0ffer: #ded9d9;
+  --border: #2f2f2f;
+}
+
+*{
+  transition: 0.3s ease-in-out;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

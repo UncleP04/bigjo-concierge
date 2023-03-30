@@ -1,21 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --orange: #F6B124;
-  --green: #1F938A;
-  --bgGreen: #042826;
-  --lightGreen: #19D6C7;
-  --orgRed: #FE6150;
-  --gbGreen: #1B5B63;
-  --linear: #FCB34C;
-  --whiteBg: #FCFAEC;  
-  --white: #fff;
-  --black: #000;
-  --fontfam: 'Open Sans', sans-serif;
+/*:root {*/
+/*  --orange: #F6B124;*/
+/*  --green: #1F938A;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19D6C7;*/
+/*  --orgRed: #FE6150;*/
+/*  --gbGreen: #1B5B63;*/
+/*  --linear: #FCB34C;*/
+/*  --whiteBg: #FCFAEC;  */
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --fontfam: 'Open Sans', sans-serif;*/
+/*}*/
+
+.App{
+  background: var(--bodyBg);
 }

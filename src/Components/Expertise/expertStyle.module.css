@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/*@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");*/
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');*/
 
-:root {
-  --orange: #f6b124;
-  --green: #1f938a;
-  --bgGreen: #042826;
-  --lightGreen: #19d6c7;
-  --orgRed: #fe6150;
-  --gbGreen: #1b5b63;
-  --linear: #fcb34c;
-  --whiteBg: #ebeae4;
-  --white: #fff;
-  --black: #000;
-  --baseColor: #fcfaec;
-  --fontfam: "Open Sans", sans-serif;
-  --fonth2: 'Work Sans', sans-serif;
-}
+/*:root {*/
+/*  --orange: #f6b124;*/
+/*  --green: #1f938a;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19d6c7;*/
+/*  --orgRed: #fe6150;*/
+/*  --gbGreen: #1b5b63;*/
+/*  --linear: #fcb34c;*/
+/*  --whiteBg: #ebeae4;*/
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --baseColor: #fcfaec;*/
+/*    --paragraph: #6b6b6b;*/
+/*  --fontfam: "Open Sans", sans-serif;*/
+/*  --fonth2: 'Work Sans', sans-serif;*/
+/*}*/
 
 * {
   padding: 0;
@@ -50,6 +51,7 @@ h2{
 .expertiseBox .leftExpertise h1{
     font-size: 3em;
     font-weight: 500;
+    color: var(--colorH);
 }
 
 .expertiseBox .rightExpertise{
@@ -69,7 +71,7 @@ h2{
 .expertiseBox .rightExpertise span p{
     font-size: 20px;
     margin: 20px 0;
-    color: #6b6b6b;
+    color: var(--paragraph);
 }
 
 @media only screen and (max-width: 425px) {
@@ -105,6 +107,7 @@ h2{
     .expertiseBox .rightExpertise span p{
         margin: 0;
         padding: 0;
+        color: var(--paragraph);
     }
 }
 

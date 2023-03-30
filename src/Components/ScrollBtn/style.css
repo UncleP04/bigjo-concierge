@@ -12,20 +12,20 @@
 }
 
 .scrollbtn:hover{
-    background: #04282669;
+    background: var(--paragraph);
 }
 
-:root {
-    --orange: #f6b124;
-    --green: #1f938a;
-    --bgGreen: #042826;
-    --lightGreen: #19d6c7;
-    --orgRed: #fe6150;
-    --gbGreen: #1b5b63;
-    --linear: #fcb34c;
-    --whiteBg: #ebeae4;
-    --white: #fff;
-    --black: #000;
-    --baseColor: #fcfaec;
-    --fontfam: "Open Sans", sans-serif;
-}
+/*:root {*/
+/*    --orange: #f6b124;*/
+/*    --green: #1f938a;*/
+/*    --bgGreen: #042826;*/
+/*    --lightGreen: #19d6c7;*/
+/*    --orgRed: #fe6150;*/
+/*    --gbGreen: #1b5b63;*/
+/*    --linear: #fcb34c;*/
+/*    --whiteBg: #ebeae4;*/
+/*    --white: #fff;*/
+/*    --black: #000;*/
+/*    --baseColor: #fcfaec;*/
+/*    --fontfam: "Open Sans", sans-serif;*/
+/*}*/

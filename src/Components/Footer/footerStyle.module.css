@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");*/
 
-:root {
-  --orange: #f6b124;
-  --green: #1f938a;
-  --bgGreen: #042826;
-  --lightGreen: #19d6c7;
-  --orgRed: #fe6150;
-  --gbGreen: #1b5b63;
-  --linear: #fcb34c;
-  --whiteBg: #ebeae4;
-  --white: #fff;
-  --black: #000;
-  --baseColor: #fcfaec;
-  --fontfam: "Open Sans", sans-serif;
-  --fonth2: "Work Sans", sans-serif;
-}
+/*:root {*/
+/*  --orange: #f6b124;*/
+/*  --green: #1f938a;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19d6c7;*/
+/*  --orgRed: #fe6150;*/
+/*  --gbGreen: #1b5b63;*/
+/*  --linear: #fcb34c;*/
+/*  --whiteBg: #ebeae4;*/
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --baseColor: #fcfaec;*/
+/*  --paragraph: #6b6b6b;*/
+/*  --fontfam: "Open Sans", sans-serif;*/
+/*  --fonth2: "Work Sans", sans-serif;*/
+/*}*/
 
 * {
   padding: 0;
@@ -54,11 +55,11 @@ h2 {
   justify-content: flex-start;
   align-items: flex-start;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: var(--paragraphLight);
 }
 
 .footerText p {
-  color: #afafad;
+  color: var(--paragraph);
   font-size: 15px;
   line-height: 25px;
 }
@@ -75,7 +76,7 @@ h2 {
   margin-top: 50px;
 }
 .footerCopywrite p {
-  color: #686868;
+  color: var(--paragraph);
   font-size: 13px;
 }
 

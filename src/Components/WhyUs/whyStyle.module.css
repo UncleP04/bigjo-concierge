@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/*@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");*/
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');*/
 
-:root {
-  --orange: #f6b124;
-  --green: #1f938a;
-  --bgGreen: #042826;
-  --lightGreen: #19d6c7;
-  --orgRed: #fe6150;
-  --gbGreen: #1b5b63;
-  --linear: #fcb34c;
-  --whiteBg: #ebeae4;
-  --white: #fff;
-  --black: #000;
-  --baseColor: #fcfaec;
-  --fontfam: "Open Sans", sans-serif;
-  --fonth2: 'Work Sans', sans-serif;
-}
+/*:root {*/
+/*  --orange: #f6b124;*/
+/*  --green: #1f938a;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19d6c7;*/
+/*  --orgRed: #fe6150;*/
+/*  --gbGreen: #1b5b63;*/
+/*  --linear: #fcb34c;*/
+/*  --whiteBg: #ebeae4;*/
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --baseColor: #fcfaec;*/
+/*    --header: #5e5c54;*/
+/*  --fontfam: "Open Sans", sans-serif;*/
+/*  --fonth2: 'Work Sans', sans-serif;*/
+/*}*/
 
 * {
   padding: 0;
@@ -35,7 +36,6 @@ h2{
 .why {
   width: 100%;
   height: 100vh;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ h2{
   border-radius: 20px;
   width: 100%;
   height: 100%;
-  background: var(--baseColor);
+  background: var(--baseWhy);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -61,7 +61,7 @@ h2{
 
 .why .whyUsBox .leftWhyBox h1 {
   text-transform: uppercase;
-  color: #5e5c54;
+  color: var(--header);
   font-weight: 400;
   font-size: 3.2rem;
 }

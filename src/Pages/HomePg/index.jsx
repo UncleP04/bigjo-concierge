@@ -8,11 +8,12 @@ import WhyUs from "../../Components/WhyUs";
 import Hiring from "../../Components/Hiring";
 import AboutComponent from "../../Components/AboutComponent";
 import Footer from "../../Components/Footer";
+import style from './style.module.css'
 
 const HomePage = () => {
 
     return (
-        <div>
+        <div className={style.home}>
                <Introduction />
                <Expertise />
                <Partners />

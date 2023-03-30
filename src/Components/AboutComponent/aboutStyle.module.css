@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");*/
 
-:root {
-  --orange: #f6b124;
-  --green: #1f938a;
-  --bgGreen: #042826;
-  --lightGreen: #19d6c7;
-  --orgRed: #fe6150;
-  --gbGreen: #1b5b63;
-  --linear: #fcb34c;
-  --whiteBg: #ebeae4;
-  --white: #fff;
-  --black: #000;
-  --baseColor: #fcfaec;
-  --fontfam: "Open Sans", sans-serif;
-  --fonth2: "Work Sans", sans-serif;
-}
+/*:root {*/
+/*  --orange: #f6b124;*/
+/*  --green: #1f938a;*/
+/*  --bgGreen: #042826;*/
+/*  --lightGreen: #19d6c7;*/
+/*  --orgRed: #fe6150;*/
+/*  --gbGreen: #1b5b63;*/
+/*  --linear: #fcb34c;*/
+/*  --whiteBg: #ebeae4;*/
+/*  --white: #fff;*/
+/*  --black: #000;*/
+/*  --baseColor: #fcfaec;*/
+/*  --paragraph: #6b6b6b;*/
+/*  --fontfam: "Open Sans", sans-serif;*/
+/*  --fonth2: "Work Sans", sans-serif;*/
+/*}*/
 
 * {
   padding: 0;
@@ -69,7 +70,7 @@ h2 {
   font-size: 15px;
   padding: 20px 0;
   line-height: 25px;
-  color: #818181;
+  color: var(--paragraph);
 }
 
 .aboutBox .customersBox,
@@ -96,7 +97,7 @@ h2 {
   font-size: 15px;
   padding: 20px 0;
   line-height: 25px;
-  color: #818181;
+  color: var(--paragraph);
 }
 
 .aboutBox .customersBox span,
@@ -116,6 +117,7 @@ h2 {
   font-size: 13px;
   padding: 0;
   margin: 0;
+  color: var(--paragraph);
 }
 
 .arrowBox {
@@ -172,7 +174,7 @@ h2 {
 
   .consultation span p{
     font-size: 15px;
-    color: #acaba8;
+    color: var(--paragraph);
     font-weight: 500;
     margin-bottom: 20px;
   }
@@ -193,7 +195,7 @@ h2 {
 
   .consultation span a:hover{
     color: var(--orange);
-    background: var(--gbGreen-);
+    background: var(--gbGreen);
     border: 1px solid #fcb34c;
   }
 
